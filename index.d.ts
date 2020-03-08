@@ -10,6 +10,8 @@ declare namespace Cypress {
     bubbles?: Boolean;
     cancelable?: Boolean;
     composed?: Boolean;
+    x?: number;
+    y?: number;
   };
 
   type ShadowInputTypingOptions = {

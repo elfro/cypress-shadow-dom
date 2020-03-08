@@ -7,6 +7,8 @@ export const DEFAULT_EVENT_OPTIONS = Object.freeze({
   bubbles: true,
   cancelable: true,
   composed: true,
+  x: 0,
+  y: 0,
 });
 
 export const DEFAULT_INPUT_TYPING_OPTIONS = Object.freeze({
